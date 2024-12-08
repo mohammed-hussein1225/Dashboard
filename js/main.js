@@ -148,6 +148,8 @@ function add_data_to_local_storage(data) {
 check();
 
 function check() {
+  // console.log(document.querySelector(".containerInput input"));
+  if (document.querySelector(".containerInput input") == undefined) return;
   if (
     name_product.value.trim() !== "" &&
     price.value.trim() !== "" &&
