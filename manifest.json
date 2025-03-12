@@ -1,7 +1,7 @@
 {
     "name": "Dashboard Web",
     "short_name": "Dashboard",
-    "start_url": "/index.html",
+    "start_url": "/Dashboard/index.html",
     "display": "standalone",
     "background_color": "#f4f4f4",
     "orientation": "landscape",

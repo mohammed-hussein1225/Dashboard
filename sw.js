@@ -11,6 +11,7 @@ const FILES_TO_CACHE = [
   "/Dashboard/js/main.js",
   "/Dashboard/js/all.min.js",
   "/Dashboard/image/avatar.png",
+  "/Dashboard/image/icon.png",
   "/Dashboard/image/tiger.jpg",
   "/Dashboard/image/user.webp",
   "/Dashboard/webfonts/fa-brands-400.ttf",
