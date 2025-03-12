@@ -193,7 +193,6 @@ function check() {
 show_products();
 function show_products() {
   let container = document.querySelector(".product-content");
-  if (!container) return;
   for (let i = 0; i < array.length; i++) {
     // console.log(array[i]);
     let div = document.createElement("div");
