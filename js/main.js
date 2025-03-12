@@ -1,8 +1,10 @@
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker
-    .register("/Dashboard/sw.js")
-    .then(() => console.log("Service Worker Registered"))
-    .catch((err) => console.log("Service Worker Failed:", err));
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("/Dashboard/sw.js")
+      .then(() => console.log("Service Worker Registered"))
+      .catch((err) => console.log("Service Worker Failed:", err));
+  });
 }
 
 // add class active
