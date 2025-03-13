@@ -8,12 +8,12 @@
     "scope": "/",
     "icons": [
       {
-        "src": "/Dashboard/image/icon.png",
+        "src": "/image/icon.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/Dashboard/image/icon.png",
+        "src": "/image/icon.png",
         "type": "image/png",
         "sizes": "512x512"
       }

@@ -1,12 +1,3 @@
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker
-      .register("/Dashboard/sw.js")
-      .then(() => console.log("Service Worker Registered"))
-      .catch((err) => console.log("Service Worker Failed:", err));
-  });
-}
-
 // add class active
 const links = document.querySelectorAll("ul li a");
 const currentPage = window.location.pathname.split("/").pop();
