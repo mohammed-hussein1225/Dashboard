@@ -33,13 +33,6 @@ self.addEventListener("install", (event) => {
 });
 
 // جلب الملفات من الكاش عند عدم وجود إنترنت
-self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    caches.match(event.request).then((response) => {
-      return response || fetch(event.request);
-    })
-  );
-});
 
 self.addEventListener("fetch", (event) => {
   event.respondWith(
