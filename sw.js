@@ -27,6 +27,7 @@ self.addEventListener("install", (event) => {
       return cache.addAll(FILES_TO_CACHE);
     })
   );
+  self.skipWaiting();
 });
 
 // جلب الملفات من الكاش عند عدم وجود إنترنت
